@@ -6,12 +6,14 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    cout << (a>=b?1:0) << endl;
-    cout << (a>b?1:0) << endl;
-    cout << (b>=a?1:0) << endl;
-    cout << (b>a?1:0) << endl;
-    cout << (a==b?1:0) << endl;
-    cout << (a!=b?1:0) << endl;
+
+    //삼항 연산자 말고 그냥 비교연산자로만 해도 됨
+    cout << (a>=b) << endl;
+    cout << (a>b) << endl;
+    cout << (b>=a) << endl;
+    cout << (b>a) << endl;
+    cout << (a==b) << endl;
+    cout << (a!=b) << endl;
 
     return 0;
 }
