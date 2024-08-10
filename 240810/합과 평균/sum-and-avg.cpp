@@ -11,6 +11,8 @@ int main() {
     sum = a+b;
     avg = (double)sum/2;
 
+    cout << fixed;
+    cout.precision(1);
     cout << sum << " " << avg;
 
     return 0;
