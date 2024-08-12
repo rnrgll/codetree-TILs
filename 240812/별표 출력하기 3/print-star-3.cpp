@@ -15,9 +15,10 @@ int main() {
             cout << "*" << " ";
         }
 
-        for(int j=0; j<i; j++){
-            cout << " " << " ";
-        }
+        //필요 없음!!!
+        // for(int j=0; j<i; j++){
+        //     cout << " " << " ";
+        // }
 
         cout << endl;
     }
