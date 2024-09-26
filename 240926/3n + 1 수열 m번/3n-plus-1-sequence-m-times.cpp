@@ -9,6 +9,7 @@ int main() {
     cin >> m;
     for(int i=0; i<m; i++){
         cin >> n;
+        cnt = 0;
 
         while (n!=1){
             if(n%2==0) n/=2;
