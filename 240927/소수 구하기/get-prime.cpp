@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // 여기에 코드를 작성해주세요.
+    int n;
+    bool flag;
+    cin >> n;
+
+    for(int i=2; i<=n; i++){
+        flag = false;
+        for(int j=2; j<i; j++){
+            if(i%j==0) {
+                flag = true;
+                break;
+            }
+        }
+
+        if(!flag) cout << i << " ";
+    }
+
+    return 0;
+}
