@@ -11,7 +11,9 @@ int main() {
         for(int j=1; j<=i; j++){
             cout << c;
             c++;
-            if((int)c > (int)z) c = 'A';
+            //if((int)c > (int)z) c = 'A';
+            //아래와 같이 간단히 작성할 수 있음
+            if(c > 'Z') c = 'A';
         }
         cout << endl;
     }
