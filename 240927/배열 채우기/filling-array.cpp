@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int arr[10];
-    int idx=0;
+    int idx=9;
     int num;
 
     for(int i=0; i<10; i++){
