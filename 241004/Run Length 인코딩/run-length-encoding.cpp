@@ -21,9 +21,9 @@ int main() {
             c = str[i];
         }
         else cnt++;
-
-        if(i==str.length()-1) ans += c + to_string(cnt);
     }
+    ans += c + to_string(cnt);
+
     cout << ans.length() << endl;
     cout << ans;
     return 0;
