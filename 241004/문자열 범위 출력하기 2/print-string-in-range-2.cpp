@@ -12,6 +12,8 @@ int main() {
     length = str.length();
 
     for(int i=0; i<n; i++){
+        int index = length-1-i;
+        if(index<0) break;
         cout << str[length-1-i];
     }
     return 0;
