@@ -15,7 +15,7 @@ int main() {
             eeExists = true;
         }
         if(str[i]=='a'&&str[i+1]=='b'){
-            eeExists = true;
+            abExists = true;
         }
                 
     }
