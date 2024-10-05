@@ -11,7 +11,7 @@ int main() {
 
 
     for(int i=0; i<str.length(); i++){
-        if(str[i]<'A'||str[i]>'z') {
+        if(!(str[i]>='A'&&str[i]<='Z')&&!(str[i]>='a'&&str[i]<='z')) {
             continue;
         }
         if(str[i]>='a'&&str[i]<='z'){
