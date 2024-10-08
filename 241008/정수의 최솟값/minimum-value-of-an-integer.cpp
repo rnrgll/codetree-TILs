@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int findMin(int a, b, c){
+int findMin(int a, int b, int c){
     int mNum = min(a,b);
     mNum = min(mNum, c);
 
