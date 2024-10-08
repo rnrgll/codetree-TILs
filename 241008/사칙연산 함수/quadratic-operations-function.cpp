@@ -1,38 +1,33 @@
 #include <iostream>
 using namespace std;
 
-int calc(int a, int c, int type){
-    switch(type){
-        case 1:
-            return a+c;
-        case 2:
-            return a-c;
-        case 3:
-            return a/c;
-        case 4:
-            return a*c;
+void calc(int a, int c, char o){
+    int result = 0;
+    switch(o){
+        case '+':
+            result =  a+c;     
+        case '-':
+            result = a-c;
+        case '/':
+            result = a/c;
+        case '*':
+            result = a*c;
     }
+
+    cout << a << " " << o << " " << c << " " << "=" << " " << result;
 }
 
 int main() {
     // 여기에 코드를 작성해주세요.
     int a, c;
     char o;
+    int result;
 
     cin >> a >> o >> c;
 
-    cout << a << " " << o << " " << c << " " << "=" << " ";
-    if(o=='+'){
-        cout << calc(a,c,1);
-    }
-    else if( o == '-'){
-        cout << calc(a,c,2);
-    }
-    else if(o=='/'){
-        cout << calc(a,c,3);
-    }
-    else if(o=='*'){
-        cout << calc(a,c,4);
+    
+    if(o=='+'|| o == '-'||o=='/'||o=='*'){
+        calc(a,c,o);
     }
     else cout << "False";
     
