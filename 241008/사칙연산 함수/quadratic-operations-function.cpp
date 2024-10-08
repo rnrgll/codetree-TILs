@@ -5,13 +5,17 @@ void calc(int a, int c, char o){
     int result = 0;
     switch(o){
         case '+':
-            result =  a+c;     
+            result = a+c;
+            break;     
         case '-':
             result = a-c;
+            break;
         case '/':
             result = a/c;
+            break;
         case '*':
             result = a*c;
+            break;
     }
 
     cout << a << " " << o << " " << c << " " << "=" << " " << result;
