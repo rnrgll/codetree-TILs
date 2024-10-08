@@ -29,8 +29,7 @@ int findSubString(){
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    string ostr, substr;
-    cin >> ostr >> substr;
+    cin >> text >> pattern;
 
     cout << findSubString();
     return 0;
