@@ -6,7 +6,7 @@ int findGCD(int n, int m){
     int i;
     i = (n<m?n:m);
 
-    for(int k=1; k<i; k++){
+    for(int k=1; k<=i; k++){
         if(n%k==0 && m%k==0) gcd = k;
     }
 
