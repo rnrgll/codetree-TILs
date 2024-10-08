@@ -3,7 +3,7 @@ using namespace std;
 
 int n, m;
 int sum;
-int a[100];
+int a[101];
 
 void myFunc(){
     while(true){
