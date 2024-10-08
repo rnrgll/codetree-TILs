@@ -3,7 +3,7 @@ using namespace std;
 
 bool has369(int n) {
     for(int i=n; i>0; i/=10){
-        if((i%10)%3==0) return true;
+        if((i%10)!=0 && (i%10)%3==0) return true;
     }
     return false;
 }
