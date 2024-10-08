@@ -3,9 +3,9 @@ using namespace std;
 
 bool isSubSeqArr(int* a, int aSize, int* b, int bSize){
     bool result;
-    for(int i=0; i<aSize-bSize; i++){
+    for(int i=0; i<=aSize-bSize; i++){
         for(int j=0; j<bSize; j++){
-            if(a[i+j]==b[j]) 
+            if(a[i+j]==b[j])
                 result = true;
             else{
                 result = false;
