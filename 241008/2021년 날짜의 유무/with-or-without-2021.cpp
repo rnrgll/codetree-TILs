@@ -4,7 +4,8 @@ using namespace std;
 
 
 bool exists(int m, int d){
-    if(m==2){
+    if(m>12) return false;
+    else if(m==2){
         return (d>28?false:true);
     }
     else if((m<=7 && m%2!=0)||(m>7 && m%2==0)){
